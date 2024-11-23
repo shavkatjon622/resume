@@ -1,0 +1,63 @@
+//          font's
+$siteFont: "Outfit", sans-serif;
+$dmFont: "DM Sans", sans-serif;
+
+// root color's
+:root {
+  --title: #2e2e48;
+  --subtitle: #47516b;
+  --littleTitle: #79819a;
+  --iconBg: #e2e6ee;
+  --iconBg2: #e1e7fe;
+  --iconBg2fill: #516cf7;
+  --shapeSpan: #5531a7;
+  --skills: #516cf7;
+
+  --liBorder: #e2e6ee;
+
+  // bg
+  --userBg: #ffffff;
+  --proBg: #f7f9fc;
+
+  --userAboutItemSpan: #fff;
+  --userAboutItemSpanArrow: #e2e6ee;
+  --darkBtn: url("/assets/images/svg/moon.svg") center/contain no-repeat;
+}
+// dark's
+.dark {
+  --title: #e2e6ee;
+  --littleTitle: #acb1c3;
+  --subtitle: #d9dfe8;
+  --iconBg: #2e2e48;
+  --iconBg2: #2a337e;
+  --iconBg2fill: #95aafb;
+  --userAboutItemSpan: #232339;
+  --userAboutItemSpanArrow: #232339;
+  --liBorder: #ffffff1a;
+  --skills: #95aafb;
+  --shapeSpan: #c696fc;
+  // bg
+  --userBg: #232339;
+  --proBg: #2e2e48;
+  --darkBtn: url("/assets/images/svg/sun.svg") center/contain no-repeat;
+}
+
+// color's white body color's
+$title: var(--title);
+$subtitle: var(--subtitle);
+$littleTitle: var(--littleTitle);
+$iconBg: var(--iconBg);
+$iconBg2: var(--iconBg2);
+$shapeSpan: var(--shapeSpan);
+$skills: var(--skills);
+
+$liBorder: var(--liBorder);
+
+// bg
+$userBg: var(--userBg);
+$proBg: var(--proBg);
+
+$userAboutItemSpan: var(--userAboutItemSpan);
+$userAboutItemSpanArrow: var(--userAboutItemSpanArrow);
+$iconBg2fill: var(--iconBg2fill);
+$dark: var(--darkBtn);
